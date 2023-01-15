@@ -1,4 +1,6 @@
-﻿//Считываем данные с консоли 
+﻿// Напишите программу, которая будет выдавать
+// название дня недели по заданному номеру.
+//Считываем данные с консоли 
 string? imputLine = Console.ReadLine();
 // Проверяем, чтобы данные не были пустыми
 if (imputLine != null)
@@ -20,6 +22,7 @@ if (imputLine != null)
     // // Выводим данные в консоль
     //     Console.WriteLine(outDayofWeek);
 //Вариант 2
+    
     int imputNumber = int.Parse(imputLine);
     // string outDayOfWeek = string.Empty;
     // switch (imputNumber)
@@ -34,8 +37,8 @@ if (imputLine != null)
     //     default: outDayOfWeek = "это не день недели!"; break;
     // }
     // Console.WriteLine(outDayOfWeek);
+    
     //Вариант 3
-
     string outDayOfWeek = System.Globalization.CultureInfo.GetCultureInfo("ru-RU").DateTimeFormat.GetDayName((DayOfWeek)Enum.GetValues(typeof(DayOfWeek)).GetValue(imputNumber));
     Console.WriteLine(outDayOfWeek);
 }
