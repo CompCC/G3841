@@ -37,3 +37,5 @@ string up = LineBuilder(n, 1);
 string down = LineBuilder(n, 3);
 //выводим результат на консоль
 PrintData(up, down);
+
+//Вариант 2
