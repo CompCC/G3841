@@ -23,11 +23,11 @@ int[] Gen1DArr(int num, int begin, int end)
 void Print1DArr(int[] arr)
 {
     Console.Write("[");
-    for (int i = 0; i < arr.Length-1; i++)
+    for (int i = 0; i < arr.Length - 1; i++)
     {
-        Console.Write(arr[i]+", ");
+        Console.Write(arr[i] + ", ");
     }
-    Console.WriteLine(arr[arr.Length-1]+"]");
+    Console.WriteLine(arr[arr.Length - 1] + "]");
 }
 
 int arrLen = ReadData("Введите длину массива.");

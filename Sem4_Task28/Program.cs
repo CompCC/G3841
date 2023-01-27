@@ -17,10 +17,10 @@ void PrintData(string msg1, BigInteger msg2)
 
 BigInteger CalcFact(int num)
 {
-    BigInteger res=1;
-    for(int i=1;i<=num;i++)
+    BigInteger res = 1;
+    for (int i = 1; i <= num; i++)
     {
-        res=res*i;
+        res = res * i;
     }
     return res;
 }
@@ -29,4 +29,4 @@ int number = ReadData("Введите число:");
 
 BigInteger fact = CalcFact(number);
 
-PrintData("Факториал равен: ",fact);
+PrintData("Факториал равен: ", fact);
