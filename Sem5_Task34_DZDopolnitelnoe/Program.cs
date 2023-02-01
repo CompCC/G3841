@@ -38,6 +38,7 @@ void PrintData(string res)
 {
     Console.WriteLine(res);
 }
+// Метод сортировки пузырьком
 int[] BubbleSort(int[] arr)
 {
     int temp;

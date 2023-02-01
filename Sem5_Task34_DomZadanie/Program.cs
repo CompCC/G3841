@@ -35,6 +35,7 @@ void PrintData(string res)
 {
     Console.WriteLine(res);
 }
+// Вычисляем четные элементы методом деления на 2 без остатка
 int Search(int[] arr)
 {
     int s = 0;

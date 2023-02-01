@@ -37,7 +37,7 @@ int ReadData(string msg)
     Console.WriteLine(msg);
     return int.Parse(Console.ReadLine() ?? "0");
 }
-
+// Метод поиска пар в массиве
 void Search(int[] arr)
 {
     Console.WriteLine("Индексы пар в заданном массиве:");

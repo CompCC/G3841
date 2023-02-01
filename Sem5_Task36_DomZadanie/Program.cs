@@ -41,6 +41,7 @@ int ReadData(string msg)
     Console.WriteLine(msg);
     return int.Parse(Console.ReadLine() ?? "0");
 }
+// Поиск суммы элементов стоящих на нечетных позициях
 int Search(int[] arr)
 {
     int s = 0;
